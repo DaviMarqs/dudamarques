@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 
+import Logo from '../assets/duda-marques-logo.png'
+
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -11,7 +13,7 @@ function Header() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <img
-                  src="src/assets/duda-marques-logo.png"
+                  src={Logo}
                   alt=""
                   className="h-12"
                 />
