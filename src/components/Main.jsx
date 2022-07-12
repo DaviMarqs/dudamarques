@@ -1,6 +1,6 @@
 import MakeUp from "../assets/undraw_makeup_artist_rxn8.svg";
 
-import Carousel from "../components/Carousel";
+import Gallery from "../components/Carousel";
 
 export default function Main() {
   return (
@@ -22,7 +22,7 @@ export default function Main() {
         </div>
       </div>
 
-      <Carousel />
+      <Gallery />
     </div>
   );
 }
